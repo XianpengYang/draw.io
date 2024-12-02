@@ -10,17 +10,59 @@
         <mxCell id="M-4wLkOpFE_RBjWkI8yj-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M-4wLkOpFE_RBjWkI8yj-3" target="M-4wLkOpFE_RBjWkI8yj-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="M-4wLkOpFE_RBjWkI8yj-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="M-4wLkOpFE_RBjWkI8yj-3" target="M-4wLkOpFE_RBjWkI8yj-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="370" />
+              <mxPoint x="650" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M-4wLkOpFE_RBjWkI8yj-23" value="读取归档情况" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="M-4wLkOpFE_RBjWkI8yj-22">
+          <mxGeometry x="0.0258" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="M-4wLkOpFE_RBjWkI8yj-3" value="salt master主机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="M-4wLkOpFE_RBjWkI8yj-4" value="定时任务触发" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="182.5" width="100" height="35" as="geometry" />
         </mxCell>
+        <mxCell id="M-4wLkOpFE_RBjWkI8yj-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M-4wLkOpFE_RBjWkI8yj-5" target="M-4wLkOpFE_RBjWkI8yj-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M-4wLkOpFE_RBjWkI8yj-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M-4wLkOpFE_RBjWkI8yj-5" target="M-4wLkOpFE_RBjWkI8yj-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M-4wLkOpFE_RBjWkI8yj-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M-4wLkOpFE_RBjWkI8yj-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="M-4wLkOpFE_RBjWkI8yj-5" value="salt minions主机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="M-4wLkOpFE_RBjWkI8yj-10" value="向所有符合条件主机发送&lt;span style=&quot;background-color: initial;&quot;&gt;归档指令&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="290" y="170" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M-4wLkOpFE_RBjWkI8yj-13" value="数据库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="270" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="M-4wLkOpFE_RBjWkI8yj-15" value="oss" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="100" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="M-4wLkOpFE_RBjWkI8yj-17" value="压缩日志上传" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="160" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M-4wLkOpFE_RBjWkI8yj-18" value="执行状态写入" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="217.5" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M-4wLkOpFE_RBjWkI8yj-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M-4wLkOpFE_RBjWkI8yj-20" target="M-4wLkOpFE_RBjWkI8yj-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M-4wLkOpFE_RBjWkI8yj-20" value="minions主机执行状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="280" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
