@@ -49,7 +49,7 @@
         <mxCell id="OGXLcFdzuTNNJpqdDNey-16" value="za-inputtax-web.prd.za.outer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-110" y="370" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OGXLcFdzuTNNJpqdDNey-17" value="172.20.50.127:80" style="text;whiteSpace=wrap;labelBackgroundColor=none;labelBorderColor=none;textShadow=1;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="OGXLcFdzuTNNJpqdDNey-17" value="172.20.50.127" style="text;whiteSpace=wrap;labelBackgroundColor=none;labelBorderColor=none;textShadow=1;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="205" y="305.04" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OGXLcFdzuTNNJpqdDNey-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.467;entryY=-0.077;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="OGXLcFdzuTNNJpqdDNey-6" target="OGXLcFdzuTNNJpqdDNey-16">
